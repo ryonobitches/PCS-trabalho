@@ -148,7 +148,7 @@ body {
             margin-left: -30px;
         }
         #i1 {
-            margin-left: 230px;
+            margin-left: 200px;
             height: 40px;
             margin-top: 20px;
         }
@@ -163,6 +163,7 @@ body {
         }
         #p1 {
             margin-left: 200px;
+            width: 500px;
         }
         #p2{
             margin-left: 0px;
@@ -171,6 +172,13 @@ body {
             margin-left: 375px;
         }
         #cred {
-            margin-left: 270px;
+            margin-left: 300px;
+            position: fixed;
+            height: 1050px;
+            width: 600px;
+            margin-top: -1029px;
+        }
+        #bem {
+            margin-left: 70px;
         }
 }
