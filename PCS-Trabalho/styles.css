@@ -1,0 +1,153 @@
+body {
+    background: rgb(209, 209, 209);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+#n1 {
+    display: flex;
+    justify-content: center;
+    background: rgba(63, 63, 63, 0.521);
+    color: rgb(0, 0, 0);
+    color: white;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 1400px;
+    z-index: 1;
+    left: 0;
+}
+
+#i1 {
+    height: 30px;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 870px;
+    cursor: pointer;
+}
+
+#h0 {
+    margin-top: 20px;
+    margin-left: -20;
+    font-family: 'Inter',sans-serif
+}
+
+#h1 {
+    font-family: 'Inter', sans-serif;
+    margin-left: 500px;
+    margin-top: 150px;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 2px black, -2px 3px black ;
+}
+
+#bem {
+    margin-left: 90px;
+    color: rgb(86, 207, 255);
+}
+
+#p1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 130px;
+    padding: 80px;
+    color: rgb(27, 27, 27);
+}
+
+#p2 {
+    margin-left: 290px;
+}
+
+#div1 {
+    background: rgb(221, 221, 221);
+
+}
+
+#pjt {
+    color: rgb(0, 183, 255);
+}
+
+#btn {
+    height: 80px;
+    border-radius: 1rem;
+    font-size: 24px;
+    border: 3px solid rgb(0, 0, 0);
+    width: 300px;
+    margin-left: 500px;
+}
+
+#a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+#cred {
+    display: none;
+    background: rgba(0, 0, 0, 0.795);
+    color: aliceblue;
+    width: 500px;
+    height: 1005px;
+    margin-top: -995px;
+    margin-left: 800px;
+    position: absolute;
+}
+
+#pfp {
+    margin-left: 140px;
+    border-radius: 50%;
+    margin-top: 200px;
+    position: fixed;
+}
+
+#cred1 {
+    margin-left: 190px;
+    font-size: 32px;
+    position: fixed;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+#X {
+    position: fixed;
+    margin-top: 80px;
+    color: red;
+    font-size: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#name {
+    position: fixed;
+    margin-top: 500px;
+    margin-left: 170px;
+}
+
+#pg {
+    position: fixed;
+    margin-top: 550px;
+    margin-left: 190px;
+}
+
+
+@media (max-width: 578px) {
+        #n1 {
+            height: 40px;
+            width: 400px;
+        }
+        #h0 {
+            font-size: 14px;
+            margin-top: 15px;
+            margin-left: -40px;
+        }
+        #i1 {
+            margin-left: 120px;
+            height: 15px;
+            margin-top: 15px;
+        }
+}
