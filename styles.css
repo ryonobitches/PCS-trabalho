@@ -137,7 +137,7 @@ body {
 }
 
 
-@media (max-width: 568px) {
+@media (max-width: 578px) {
         #n1 {
             height: 80px;
             width: 567px;
@@ -163,7 +163,6 @@ body {
         }
         #p1 {
             margin-left: 200px;
-            width: 500px;
         }
         #p2{
             margin-left: 0px;
@@ -176,7 +175,7 @@ body {
             position: fixed;
             height: 1050px;
             width: 600px;
-            margin-top: -1029px;
+            margin-top: -929px;
         }
         #bem {
             margin-left: 70px;
