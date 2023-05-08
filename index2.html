@@ -4,9 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>questionario
+    </title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <nav>
+        <div id="n1">
+            <h1 id="hquiz">
+                Quiz
+            </h1>
+            <img id="menuquiz1" src="./55003.png" alt="" srcset="" onclick="menuquiz()">
+        </div>
+    </nav>
+    <div id="mqo">
+        <h1 id="tmo"> Menu</h1>
+        <img src="./458594.png" id="Xbtnmenu" alt="" srcset="" onclick="Xmenu()">
+        <button id="InicioB1"><a href="./index.html" id="ab1">Inicio</a></button>
+        <button id="CredB3" onclick="cred()"> Créditos</button>
+    </div>
+    <div id="cre-o">
+        <img src="./voltar.png" onclick="Voltcreditosbtn()" id="voltbtn" alt="" srcset="">
+        <h1 id="t-cre">Créditos</h1>
+        <img src="./458594.png" id="X2" onclick="Xcreditosbtn()"alt="" srcset="">
+        <img src="./download.jpg" alt="" srcset="" id="pfp">
+        <h2 id="nomePG"> Felipe gabriel</h2>
+        <h2 id="DevJ"> Dev júnior</h2>
+    </div>
+
+    <div id = "div0">
+        <h1 id="h0">
+            <tag id="tagred">Atenção!</tag> Preste atenção nas perguntas e marque com cuidado!<br><br>
+            ( Lembrando que este site é para pegar opiniões, não existe resposta certa ou errada )
+        </h1>
+    </div>
+    <button onclick="start()" id="btn0"> OK</button>
+
+    <div id="div1">
+        <h2 id="t1">
+           1 - Do que podem ser feitas as paredes da casa:
+        </h2>
+        <div id="respd">
+            <button id="btr1a" onclick="a1()">a - Papelão</button>
+            <button id="btr1b" onclick="b1()"">b - Caixas de papelão</button>
+            <button id="btr1c" onclick="c1()">c - Isopor</button>
+            <button id="btr1d" onclick="d1()">d - Tijolos</button>
+            <button id="btr1e" onclick="e1()">e - Sua resposta:</button>
+            <input id="btr1er" type="text" onclick="e1()" placeholder="sua resposta: ">
+            <button id="enviarE" onclick="ERL1()">Enviar</button>
+        </div>
+    </div>
+     
+
+    <!--Pergunta 2 -->
+
+
+    <div id="div2">
+        <h2 id="t2">
+           2 - O que poderia ser adicionado no projeto:
+        </h2>
+        <div id="respd">
+            <button id="btr1a" onclick="a2()">a - + Móveis</button>
+            <button id="btr2b" onclick="b2()"">b - + Comodos</button>
+            <button id="btr2c" onclick="c2()">c - + Divulgação ( panfletos etc )</button>
+            <button id="btr2d" onclick="d2()">d - Tecnologia (videos etc...)</button>
+            <button id="btr2e" onclick="e2()">e - Sua resposta:</button>
+            <input id="btr2er" type="text" onclick="e2()" placeholder="sua resposta: ">
+            <button id="enviarE2" onclick="ERL2()">Enviar</button>
+        </div>
+    </div>
+
+
+    <!--Pergunta 3 -->
+
+
+    <div id="div3">
+        <h2 id="t3">
+            3 - Qual material você acha que poderia ser ultilizado no piso da casa sustentável:
+        </h2>
+        <div id="respd">
+            <button id="btr3a" onclick="a3()">a - Piso de bamboo</button>
+            <button id="btr3b" onclick="b3()"">b - Madeira de reflorestamento</button>
+            <button id="btr3c" onclick="c3()">c - Piso de caixa de leites recicladas</button>
+            <button id="btr3d" onclick="d3()">d - Papelão</button>
+            <button id="btr3e" onclick="e3()">e - Sua resposta:</button>
+            <input id="btr3er" type="text" onclick="e3()" placeholder="sua resposta: ">
+            <button id="enviarE3" onclick="ERL3()">Enviar</button>
+        </div>
+    </div>
+
+
+    <!--Pergunta 4 -->
+
+
+    <div id="div4">
+        <h2 id="t4">
+            4 - Qual tipo de móbilia você gostaria de ver sendo ultilizada na casa sustentavel:
+        </h2>
+        <div id="respd">
+            <button id="btr4a" onclick="a4()">a - Cadeiras</button>
+            <button id="btr4b" onclick="b4()"">b - Mesa de Jantar</button>
+            <button id="btr4c" onclick="c4()">c - Prateleiras</button>
+            <button id="btr4d" onclick="d4()">d - Armarios</button>
+            <button id="btr4e" onclick="e4()">e - Sua resposta:</button>
+            <input id="btr4er" type="text" onclick="e4()" placeholder="sua resposta: ">
+            <button id="enviarE4" onclick="ERL4()">Enviar</button>
+        </div>
+    </div>
+
+
+    <!--Pergunta 5 -->
+
+
+    <div id="div5">
+        <h2 id="t5">
+            5 - Que tipo de texnologia gostaria de ver sendo usada na casa sustentável?
+        </h2>
+        <div id="respd">
+            <button id="btr5e" onclick="e5()">e - Sua resposta:</button>
+            <input id="btr5er" type="text" onclick="e5()" placeholder="sua resposta: ">
+            <button id="enviarE5" onclick="ERL5()">Enviar</button>
+        </div>
+    </div>
+    <div id="div6">
+        <h1 id="h9">
+            Parabéns você terminou o questionario!
+        </h1>
+        <h2 id="h10">
+            preencha o campo com seu email para enviar as respostas!
+        </h2>
+
+        <form action="https://formsubmit.co/felipegabriel.4928@gmail.com" method="POST">
+            <input type="email" name="email" placeholder="Email: " id="email" required>
+            <textarea id="mensagem" name="messagem" cols="50" rows="10" required>
+            </textarea>
+            <button type="submit">Enviar</button>
+       </form>
+    </div>
 </body>
 </html>
