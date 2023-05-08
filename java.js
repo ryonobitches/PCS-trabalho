@@ -1,12 +1,24 @@
-var cred = document.getElementById("cred");
-
-
 function menu() {
-
-        document.getElementById("cred").style.display = "block";
-        return
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("cre-o").style.display = "none";
+    return
 }
 
-function menux () {
-    document.getElementById("cred").style.display = "none";
+function X () {
+    document.getElementById("menu").style.display = "none";
+}
+
+function X2 () {
+    document.getElementById("cre-o").style.display = "none";
+}
+
+
+function cred() {
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("cre-o").style.display = "block";
+}
+
+function voltCredMenu() {
+    document.getElementById("cre-o").style.display = "none";
+    document.getElementById("menu").style.display = "block";
 }
