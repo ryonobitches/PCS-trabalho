@@ -1,5 +1,5 @@
 body {
-    background: rgb(38, 38, 38);
+    background: rgb(39, 39, 39);
 }
 
 * {
@@ -205,7 +205,7 @@ body {
             margin-left: -20px;
         }
         #i1 {
-            margin-left: 230px;
+            margin-left: 200px;
             height: 40px;
             margin-top: 20px;
         }
@@ -223,28 +223,29 @@ body {
         }
         #p1 {
             margin-left: 200px;
+            font-size: 22px;
         }
         #p2{
             margin-left: 0px;
         }
         #btn {
-            margin-left: 300px;
+            margin-left: 280px;
         }
         #menu {
-            margin-left: 450px;
+            margin-left: 430px;
             position: fixed;
             height: 1050px;
             width: 300px;
-            margin-top: -1138px;
+            margin-top: -1085px;
         }
         #bem {
             margin-left: 80px;
         }
         #cre-o{
-            margin-left: 255px;
+            margin-left: 250px;
             position: fixed;
             height: 1050px;
             width: 300px;
-            margin-top: -1138px;
+            margin-top: -1075px;
         }
 }
