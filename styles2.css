@@ -72,11 +72,11 @@ body {
 
 #cre-o {
     display: none;
-    height: 580px;
+    height: 800px;
     background: rgba(0, 0, 0, 0.745);
     width: 300px;
-    margin-top: -22px;
-    margin-left: 1030px;
+    margin-top: -20px;
+    margin-left: 1010px;
     color: white;
     z-index: 9;
     position: fixed;
@@ -246,15 +246,16 @@ textarea {
 
 @media (max-width: 568px){
     #div0 {
-        width: 270px;
+        width: 290px;
         height: 70px;
         margin: 0;
         margin-top: 100px;
     }
     #h0 {
-        font-size: 18px;
+        font-size: 20px;
+        width: 450px;
         margin-top: -50px;
-        margin-left: -65px;
+        margin-left: -75px;
     }
     #btn0 {
         margin-left: 170px;
