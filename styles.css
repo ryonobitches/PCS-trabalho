@@ -234,9 +234,9 @@ body {
         #menu {
             margin-left: 400px;
             position: fixed;
-            height: 1050px;
+            height: 900px;
             width: 300px;
-            margin-top: -1250px;
+            margin-top: -1100px;
         }
         #bem {
             margin-left: 80px;
@@ -244,8 +244,8 @@ body {
         #cre-o{
             margin-left: 200px;
             position: fixed;
-            height: 1050px;
+            height: 900px;
             width: 300px;
-            margin-top: -1250px;
+            margin-top: -1100px;
         }
 }
