@@ -194,58 +194,654 @@ body {
     margin-left: 100px;
 }
 
-@media (max-width: 578px) {
-        #n1 {
-            height: 80px;
-            width: 567px;
-        }
-        #h0 {
-            font-size: 20px;
-            margin-top: 30px;
-            margin-left: -20px;
-        }
-        #i1 {
-            margin-left: 180px;
-            height: 40px;
-            margin-top: 20px;
-        }
-        #text {
-            margin-left: -130px;
-        }
-        #div0{
-            margin-left: -180px;
-        }
-        #bemvindo {
-            margin-left: 300px;
-        }
-        #div1{
-            margin-left: 0;
-        }
-        #p1 {
-            margin-left: 200px;
-            font-size: 22px;
-        }
-        #p2{
-            margin-left: 0px;
-        }
-        #btn {
-            margin-left: 280px;
-        }
-        #menu {
-            margin-left: 400px;
-            position: fixed;
-            height: 900px;
-            width: 300px;
-            margin-top: -1050px;
-        }
-        #bem {
-            margin-left: 80px;
-        }
-        #cre-o{
-            margin-left: 200px;
-            position: fixed;
-            height: 900px;
-            width: 300px;
-            margin-top: -1050px;
-        }
+@media (width <= 620px) {
+    #n1 {
+        height: 80px;
+        width: 620px;
+    }
+    #h0 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    #i1 {
+        margin-left: 250px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 300px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 340px;
+    }
+    #menu {
+        margin-left: 500px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1025px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 310px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1025px;
+    }
+}
+
+@media (width <= 616px) {
+    #n1 {
+        height: 80px;
+        width: 620px;
+    }
+    #h0 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    #i1 {
+        margin-left: 250px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 300px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+    }
+    #menu {
+        margin-left: 500px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1055px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 310px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1050px;
+    }
+}
+
+@media (width <=578px) {
+    #n1 {
+        height: 80px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    #i1 {
+        margin-left: 240px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 300px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+    }
+    #menu {
+        margin-left: 465px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1050px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 275px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1050px;
+    }
+}
+
+@media (width <=561px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    #i1 {
+        margin-left: 240px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 300px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+    }
+    #menu {
+        margin-left: 445px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1087px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 255px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1087px;
+    }
+}
+
+@media (width <=549px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    #i1 {
+        margin-left: 240px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 300px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+    }
+    #menu {
+        margin-left: 425px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1112px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 235px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1112px;
+    }
+}
+
+@media (width <=496px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    #i1 {
+        margin-left: 180px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 300px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 22px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+        height: 70px;
+        font-size: 14px;
+        width: 200px;
+    }
+    #a {
+        font-size: 18px;
+    }
+    #menu {
+        margin-left: 400px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1127px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 200px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1127px;
+    }
+}
+
+@media (width <=496px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    #i1 {
+        margin-left: 180px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 260px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 18px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+        height: 70px;
+        font-size: 14px;
+        width: 200px;
+    }
+    #a {
+        font-size: 18px;
+    }
+    #menu {
+        margin-left: 380px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -971px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 200px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -971px;
+    }
+}
+
+@media (width <=495px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    #i1 {
+        margin-left: 180px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 260px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 18px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+        height: 70px;
+        font-size: 14px;
+        width: 200px;
+    }
+    #a {
+        font-size: 18px;
+    }
+    #menu {
+        margin-left: 360px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -994px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 200px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -992px;
+    }
+}
+
+@media (width <=485px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -150px;
+    }
+    #i1 {
+        margin-left: 180px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 260px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 18px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+        height: 70px;
+        font-size: 14px;
+        width: 200px;
+    }
+    #a {
+        font-size: 18px;
+    }
+    #menu {
+        margin-left: 360px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1014px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 180px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1014px;
+    }
+}
+
+@media (width <=441px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -150px;
+    }
+    #i1 {
+        margin-left: 160px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 260px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 18px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 280px;
+        height: 70px;
+        font-size: 14px;
+        width: 200px;
+    }
+    #a {
+        font-size: 18px;
+    }
+    #menu {
+        margin-left: 330px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1037px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 140px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -1037px;
+    }
+}
+
+@media (width <=440px) {
+    #n1 {
+        height: 70px;
+        width: 578px;
+    }
+    #h0 {
+        font-size: 17px;
+        margin-top: 30px;
+        margin-left: -150px;
+    }
+    #i1 {
+        margin-left: 140px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    #text {
+        margin-left: -130px;
+    }
+    #div0{
+        margin-left: -180px;
+    }
+    #bemvindo {
+        margin-left: 240px;
+    }
+    #div1{
+        margin-left: 0;
+    }
+    #p1 {
+        margin-left: 200px;
+        font-size: 16px;
+    }
+    #p2{
+        margin-left: 0px;
+    }
+    #btn {
+        margin-left: 320px;
+        height: 70px;
+        font-size: 14px;
+        width: 200px;
+    }
+    #a {
+        font-size: 18px;
+    }
+    #menu {
+        margin-left: 360px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -960px;
+    }
+    #bem {
+        margin-left: 80px;
+    }
+    #cre-o{
+        margin-left: 140px;
+        position: fixed;
+        height: 900px;
+        width: 300px;
+        margin-top: -960px;
+    }
 }
